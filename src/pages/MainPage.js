@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Events from '../components/Events';
 import Offer from '../components/Offer';
 import Ourteam from '../components/Ourteam';
-// import Accordion from './components/Accordion';
+import Accordion from '../components/Accordion';
 import Particle2 from '../components/Particle';
 import AboutZ from '../components/AboutZ';
 
@@ -14,12 +14,12 @@ function MainPage() {
         <Particle2/>
         <Nav/>
         <Header/>
+        <AboutZ />
         <Events/>
         <Offer/>
         <Ourteam/>
-        {/* <Popup/> */}
-        <AboutZ />  
-        {/* <Accordion/> */}
+        {/* <Popup/> */}  
+        <Accordion/>
       </div>
     );
   }

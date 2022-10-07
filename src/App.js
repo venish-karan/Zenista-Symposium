@@ -6,6 +6,8 @@ import MooPoint from './pages/MooPoint';
 import PotPourri from './pages/PotPourri';
 import Hammered from './pages/Hammered';
 
+// import Nav from './components/nav'
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -13,6 +15,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
+    {/* <Nav/> */}
     <Router>
       <Routes>
         <Route exact path="/" element={<Main/>} />
