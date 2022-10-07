@@ -1,0 +1,218 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+    #flex {
+      display: flex;
+      position: absolute;
+      top: 80px;
+      left: 28%;
+      border: 10px;
+    }
+
+    .image-dsktp{
+      width: 400px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .flex2 {
+      background-color: hsl(0, 0%, 100%);
+      width: 295px;
+      height: 460px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .P1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      position:relative;
+      top: 18px;
+      left: 30px;
+      color: #8B8B97;
+      letter-spacing: 5px;
+    }
+
+    .P2 {
+      font-family: 'Fraunces', serif;
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 30px;
+      padding: 45px;
+      position: relative;
+      top: -42px;
+      right: 16.5px;
+ 
+    }
+
+    .P3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 25px;
+      color: #8B8B97;
+      padding: 20px;
+      position: relative;
+      top: -120px;
+      left: 7px;
+    }
+
+    .price {
+      display: flex;
+    }
+
+    .price1 {
+      font-family: 'Fraunces', serif;
+      font-size: 33px;
+      font-weight: 700;
+      color: #547A6B;
+      margin-top: -135px;
+      margin-left: 33px;
+
+    }
+
+    .price2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      color: #8B8B97;
+      margin-top: -125px;
+      margin-left: 25px;
+    }
+
+    button {
+      display: flex;
+      background-color: #3D8168;
+      color: #E7F9F1;
+      width: 230px;
+      margin-left: 33px;
+      margin-top: -70px;
+      padding: 7px;
+      border: 0px;
+      border-radius: 8px;
+    }
+    
+    button img {
+      position: relative;
+      top: 8px;
+      left: 65px;
+    }
+
+    button p {
+      padding: 10px;
+      margin: 0px;
+      margin-left: 65px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    button:hover  {
+      background-color: #1A4031;
+    }
+
+    .attribution { font-size: 11px; text-align: center; display: none;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width: 400px ) {
+      body{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #flex {
+        display: inline-block;
+        width: 310px;
+        position: absolute;
+        top: -10px;
+        left: 5%;
+        margin: 25px;
+      }
+
+      .image-dsktp {
+        display: none;
+      }
+
+      .image-mobile {
+        display: block !important;
+        width: 290px;
+        height: 400px;
+        margin-left: 13px;
+        position: relative;
+        top: 6px;
+        right: 6px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;       
+      }
+
+      .flex2 {
+        width: 290px;
+        height: 310px;
+        position: relative;
+        left: 6.5px;
+        bottom: 6px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .P1 {
+        width: 120px;
+        top: 15px;
+        left: 20px;
+      }
+
+      .P2 {
+        width: 240px;
+        font-size: 27px;
+        padding: 3px;
+        position: relative;
+        top: -5px;
+        left: 17px;
+      }
+
+      .P3 {
+        width: 270px;
+        font-size: 13px;
+        padding: 5px;
+        margin-top: 115px;
+        position: relative;
+        left: 15px;
+      }
+
+      .price {
+        padding: 0px;
+        position: relative;
+        bottom: 135px;
+      }
+
+      .price1 {
+        margin: 0px;
+        margin-left: 25px;
+      }
+
+      .price2 {
+        margin: 0px;
+        margin-left: 20px;
+        padding-top: 10px;
+      }
+
+      button {
+        position: relative;
+        top: -55px;
+        left: -4px;
+        padding: 6px;
+      }
+      
+      button p { 
+        padding: 6px;
+      }
+
+      .attribution {
+        margin-top: 0px;
+      }
+      
+    }
