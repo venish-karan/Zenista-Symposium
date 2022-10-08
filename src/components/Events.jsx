@@ -27,7 +27,7 @@ function Events() {
         <h1>NON-TECHNICAL EVENTS</h1>
         <div className='a-container'>
             <Eventbox image = {fimgae4} title = "HAMMERED!" text = "Cricket Auction" link="hammered" />
-            {/* <Eventbox image = {fimgae5} title = "POT POURRI" text = "some content"/> */}
+            <Eventbox image = {fimgae5} title = "GAME OF BINGERS" text = "Series, Movies, Anime Quiz" link="gameOfBingers" />
         </div>
     </div>
   )

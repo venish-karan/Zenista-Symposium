@@ -15,6 +15,12 @@ a {
     font-family: monospace;
 }
 
+.link-href {    
+    position: relative;
+
+    z-index: 9999;
+}
+
 hr {
     color: pink;
     height: 0px;
@@ -22,7 +28,7 @@ hr {
 }
 .footer-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr    );
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "footerAbout getInTouch openingHours";
     justify-items: center;
@@ -30,6 +36,7 @@ hr {
 }
 
 .footer-grid-item-1 {
+    margin: 25px;
     color: aliceblue;
     grid-area: footerAbout;
 }

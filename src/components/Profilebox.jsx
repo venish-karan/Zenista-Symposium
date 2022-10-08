@@ -8,7 +8,7 @@ function Profilebox(props) {
         </div>
         <div className='p-b-text'>
             <h2>{props.title}</h2>
-            <p className='p-details'>{props.text}</p>
+            {/* <p className='p-details'>{props.text}</p> */}
         </div>
     </div>
   )

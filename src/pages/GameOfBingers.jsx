@@ -28,7 +28,7 @@ const Hammered = () => {
               <p class="price2"><s>$169.99</s></p>
           </div> */}
 
-          <p class="P2">Hammered!!</p>
+          <p class="P2">Game Of Bingers</p>
           
           <button type="button"> <img src="./icon-cart.svg" alt="" /><p>REGISTER</p> </button>
           {/* <button type="button"> <img src="./icon-cart.svg" alt="" /><p>BACK</p> </button> */}

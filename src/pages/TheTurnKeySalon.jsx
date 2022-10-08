@@ -1,6 +1,6 @@
 import React from 'react'
 import './EventsPage.css'
-import about_bg from '../images/bg3.png'
+import theTurnkeySalon from '../images/the turnkey salon.png'
 
 import Particle2 from '../components/Particle';
 import Nav from './EventsNav';
@@ -11,8 +11,8 @@ const TheTurnKeySalon = () => {
     <Nav/>
         <Particle2/>
       <div id="flex">
-          <img src={about_bg} alt="Image of perfume" height={460} class="image-dsktp" />
-          <img src={about_bg} alt="Image of perfume" style={{display: 'none'}} class="image-mobile" />
+          <img src={theTurnkeySalon} alt="Image of perfume" height={460} class="image-dsktp" />
+          <img src={theTurnkeySalon} alt="Image of perfume" style={{display: 'none'}} class="image-mobile" />
       
 
           <div class="flex2"> 

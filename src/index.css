@@ -415,11 +415,11 @@ nav .menu-btn,
 }
 
   
-.p-box:hover {
+.p-box {
     transform: translateY(-15px);
 }
 
-.p-box:hover .details {
+.p-box .details {
     visibility: visible;
     margin: 0px;
     color:#ffffffa6;
@@ -434,8 +434,8 @@ nav .menu-btn,
     margin-bottom: 2px; 
 }
 
-.p-box:hover .p-b-text{
-    transform: translateY(-20px);
+.p-box .p-b-text{
+    transform: translateY(-15px);
     animation: fadeIn 4s;
 
     
@@ -447,7 +447,7 @@ nav .menu-btn,
 .p-box{
     background-color: #000000;
     width:200px;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.4s ease-in-out;

@@ -38,6 +38,7 @@
 
     .P2 {
       font-family: 'Fraunces', serif;
+      color: white;
       font-size: 33px;
       font-weight: 700;
       line-height: 30px;
@@ -53,7 +54,7 @@
       font-size: 15px;
       font-weight: 500;
       line-height: 25px;
-      color: #8B8B97;
+      color: #FFFFFF;
       padding: 20px 20px 0;
       position: relative;
       top: -120px;
@@ -112,7 +113,7 @@
     }
 
     button:hover  {
-      background-color: #1A4031;
+      background-color: #603030;
     }
 
     .attribution { font-size: 11px; text-align: center; display: none;}

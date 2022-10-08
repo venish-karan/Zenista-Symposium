@@ -19,10 +19,9 @@ import './footer.css'
 import logo from '../images/zenista_logo.png';
 import instagram_logo from '../images/instagram-logo.png'
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFire } from '@fortawesome/free-solid-svg-icons'
-// import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-// import { faEarthAsia } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faEarthAsia } from '@fortawesome/free-solid-svg-icons'
 
 
 const Accordion = () => {
@@ -32,23 +31,40 @@ const Accordion = () => {
     <div className='footer-grid-container'>
       <div className='footer-grid-item-1'>
       <img className='footer-logo' src={logo} alt = ''/>
-          <a href="https://instagram.com/zenista2k22?igshid=YmMyMTA2M2Y=">
-            <img className='footer-instagram-link' src={instagram_logo} alt="instagram" />
-          </a>
+      <a className='link-href' href="https://instagram.com/zenista2k22?igshid=YmMyMTA2M2Y=">
+        <img className='footer-instagram-link' src={instagram_logo} alt="instagram" />
+      </a>
       </div>
       <div className='footer-grid-item-2'>
         <h2>LOCATION & CONTACT</h2>
-        <p>
-          {/* <FontAwesomeIcon icon={faFire} />  +91-1234567890 */}           
-          Sai Leo Nagar,West Tambaram, <br />
-          Poonthandalam, Village, Chennai, <br />
-          Tamil Nadu 600044
+        <p> 
+        <table>
+          <tr>
+            <td>
+          <FontAwesomeIcon icon={faEarthAsia} />
+            </td>
+            &nbsp;
+            &nbsp;
+            <td>
+            Sai Leo Nagar,West Tambaram, <br />
+            Poonthandalam, Village, Chennai, <br />
+            Tamil Nadu 600044
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>
+           <FontAwesomeIcon icon={faEnvelope} />
+            </td>
+            &nbsp;
+            &nbsp; 
+            <td>
+            Janani Priyadharshini <br />
+            +91-1234567890 (for queries)
+            </td>
+          </tr>
+        </table>    
         </p>
-        <p>
-          Janani Priyadharshini <br />
-          +91-1234567890 (for queries)
-        </p>
-          {/* <FontAwesomeIcon icon={faEarthAsia} /> */}
       </div>
       <div className='footer-grid-item-3'>
         <h2>ABOUT SAIRAM COLLEGE</h2>
